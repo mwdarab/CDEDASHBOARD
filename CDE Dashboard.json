@@ -1,0 +1,1709 @@
+{
+  "properties": {
+    "lenses": {
+      "0": {
+        "order": 0,
+        "parts": {
+          "0": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 5,
+              "rowSpan": 8
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "tagName",
+                  "isOptional": true
+                },
+                {
+                  "name": "tagValue",
+                  "isOptional": true
+                },
+                {
+                  "name": "filter",
+                  "isOptional": true
+                },
+                {
+                  "name": "view",
+                  "value": {
+                    "id": "4707c98f-088b-4f57-aaa5-3a012ae0524c",
+                    "name": "4707c98f-088b-4f57-aaa5-3a012ae0524c",
+                    "filterFacets": [
+                      {
+                        "key": "resourceGroup",
+                        "uniqueId": "4707c98f-088b-4f57-aaa5-3a012ae05002",
+                        "display": "Resource group",
+                        "operator": 1,
+                        "value": [
+                          {
+                            "name": "cde-sandbox"
+                          }
+                        ],
+                        "isAllValues": false,
+                        "facetKind": 1
+                      },
+                      {
+                        "key": "locationDisplayName",
+                        "uniqueId": "4707c98f-088b-4f57-aaa5-3a012ae05004",
+                        "display": "Location",
+                        "operator": 1,
+                        "isAllValues": true,
+                        "facetKind": 1
+                      },
+                      {
+                        "key": "dashboard",
+                        "uniqueId": "4707c98f-088b-4f57-aaa5-3a012ae051a9",
+                        "display": "Dashboard",
+                        "operator": 1,
+                        "value": [
+                          {
+                            "name": "True",
+                            "displayName": "True",
+                            "count": "(9)"
+                          }
+                        ],
+                        "isAllValues": true,
+                        "facetKind": 2,
+                        "tagNames": [
+                          "Dashboard"
+                        ]
+                      }
+                    ],
+                    "groupByValue": "",
+                    "sortedColumns": [
+                      {
+                        "sortBy": "typeDisplayName",
+                        "order": 1
+                      }
+                    ],
+                    "showAll": false,
+                    "gridColumns": [
+                      {
+                        "id": "assetType",
+                        "name": "Type",
+                        "visible": true,
+                        "width": "100fr"
+                      },
+                      {
+                        "id": "resourceGroup",
+                        "name": "Resource group",
+                        "visible": true,
+                        "width": "100fr"
+                      },
+                      {
+                        "id": "location",
+                        "name": "Location",
+                        "visible": false
+                      },
+                      {
+                        "id": "subscription",
+                        "name": "Subscription",
+                        "visible": false
+                      },
+                      {
+                        "id": "tagsArray",
+                        "name": "Tags",
+                        "visible": false
+                      },
+                      {
+                        "id": "kind",
+                        "name": "Kind",
+                        "visible": false
+                      },
+                      {
+                        "id": "resourceGroupId",
+                        "name": "Resource group ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "locationId",
+                        "name": "Location ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "resourceId",
+                        "name": "Resource ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "resourceType",
+                        "name": "Resource type",
+                        "visible": false
+                      },
+                      {
+                        "id": "subscriptionId",
+                        "name": "Subscription ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.application",
+                        "name": "application",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_gen_date",
+                        "name": "base_image_gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_name",
+                        "name": "base_image_name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_offer",
+                        "name": "base_image_offer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_publisher",
+                        "name": "base_image_publisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_sku",
+                        "name": "base_image_sku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_version",
+                        "name": "base_image_version",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagegendate",
+                        "name": "baseimagegendate",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagename",
+                        "name": "baseimagename",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimageoffer",
+                        "name": "baseimageoffer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagepublisher",
+                        "name": "baseimagepublisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagesku",
+                        "name": "baseimagesku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.clusterid",
+                        "name": "clusterid",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.clustername",
+                        "name": "clustername",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.command",
+                        "name": "command",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.costcentercode",
+                        "name": "costcentercode",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.created_by",
+                        "name": "created_by",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.creator",
+                        "name": "creator",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.databricks-environment",
+                        "name": "databricks-environment",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.databricks-instance-name",
+                        "name": "databricks-instance-name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.databricksenvironment",
+                        "name": "databricksenvironment",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.environment",
+                        "name": "environment",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.gen_date",
+                        "name": "gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.guest_config_version",
+                        "name": "guest_config_version",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_gen_date",
+                        "name": "image_gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_name",
+                        "name": "image_name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_offer",
+                        "name": "image_offer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_publisher",
+                        "name": "image_publisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_sku",
+                        "name": "image_sku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_ver",
+                        "name": "image_ver",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_version",
+                        "name": "image_version",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.loe",
+                        "name": "loe",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.ms-resource-usage",
+                        "name": "ms-resource-usage",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.os_platform",
+                        "name": "os_platform",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planinfo",
+                        "name": "planinfo",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planproduct",
+                        "name": "planproduct",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planpromotioncode",
+                        "name": "planpromotioncode",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planpublisher",
+                        "name": "planpublisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.resourcecategory",
+                        "name": "resourcecategory",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.resourceclass",
+                        "name": "resourceclass",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.resourcetype",
+                        "name": "resourcetype",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_gen_date",
+                        "name": "source_gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_name",
+                        "name": "source_name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_offer",
+                        "name": "source_offer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_publisher",
+                        "name": "source_publisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_sku",
+                        "name": "source_sku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.subcommand",
+                        "name": "subcommand",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.vendor",
+                        "name": "vendor",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base",
+                        "name": "Base",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.dashboard",
+                        "name": "Dashboard",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.defaultexperience",
+                        "name": "defaultExperience",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.rsvaultbackup",
+                        "name": "RSVaultBackup",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.unit",
+                        "name": "Unit",
+                        "visible": false
+                      }
+                    ],
+                    "gridColumnWidths": {
+                      "assetType": "100fr",
+                      "resourceGroup": "100fr"
+                    },
+                    "currentView": 1,
+                    "visualizationId": "location",
+                    "visualizationType": 4,
+                    "visualizationThreshold": 1
+                  },
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/BrowseAllTile"
+            }
+          },
+          "1": {
+            "position": {
+              "x": 5,
+              "y": 0,
+              "colSpan": 5,
+              "rowSpan": 8
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "tagName",
+                  "isOptional": true
+                },
+                {
+                  "name": "tagValue",
+                  "isOptional": true
+                },
+                {
+                  "name": "filter",
+                  "isOptional": true
+                },
+                {
+                  "name": "view",
+                  "value": {
+                    "id": "4707c98f-088b-4f57-aaa5-3a012ae050db",
+                    "name": "4707c98f-088b-4f57-aaa5-3a012ae050db",
+                    "filterFacets": [
+                      {
+                        "key": "resourceGroup",
+                        "uniqueId": "4707c98f-088b-4f57-aaa5-3a012ae050c8",
+                        "display": "Resource group",
+                        "operator": 1,
+                        "value": [
+                          {
+                            "name": "s-va-eitaas-cor-cde"
+                          }
+                        ],
+                        "isAllValues": false,
+                        "facetKind": 1
+                      },
+                      {
+                        "key": "locationDisplayName",
+                        "uniqueId": "4707c98f-088b-4f57-aaa5-3a012ae05004",
+                        "display": "Location",
+                        "operator": 1,
+                        "isAllValues": true,
+                        "facetKind": 1
+                      },
+                      {
+                        "key": "typeDisplayName",
+                        "uniqueId": "4707c98f-088b-4f57-aaa5-3a012ae050d0",
+                        "display": "Type",
+                        "operator": 1,
+                        "value": [
+                          {
+                            "name": "api connection"
+                          },
+                          {
+                            "name": "automation account"
+                          },
+                          {
+                            "name": "azure databricks service"
+                          },
+                          {
+                            "name": "data factory (v2)"
+                          },
+                          {
+                            "name": "dedicated sql pool"
+                          },
+                          {
+                            "name": "key vault"
+                          },
+                          {
+                            "name": "log analytics workspace"
+                          },
+                          {
+                            "name": "sql database"
+                          },
+                          {
+                            "name": "sql server"
+                          },
+                          {
+                            "name": "storage account"
+                          },
+                          {
+                            "name": "synapse workspace"
+                          },
+                          {
+                            "name": "virtual network"
+                          }
+                        ],
+                        "isAllValues": false,
+                        "facetKind": 1
+                      }
+                    ],
+                    "groupByValue": "",
+                    "sortedColumns": [
+                      {
+                        "sortBy": "typeDisplayName",
+                        "order": 1
+                      }
+                    ],
+                    "showAll": false,
+                    "gridColumns": [
+                      {
+                        "id": "assetType",
+                        "name": "Type",
+                        "visible": true,
+                        "width": "100fr"
+                      },
+                      {
+                        "id": "resourceGroup",
+                        "name": "Resource group",
+                        "visible": true,
+                        "width": "100fr"
+                      },
+                      {
+                        "id": "location",
+                        "name": "Location",
+                        "visible": false
+                      },
+                      {
+                        "id": "subscription",
+                        "name": "Subscription",
+                        "visible": true,
+                        "width": "100fr"
+                      },
+                      {
+                        "id": "tagsArray",
+                        "name": "Tags",
+                        "visible": false
+                      },
+                      {
+                        "id": "kind",
+                        "name": "Kind",
+                        "visible": false
+                      },
+                      {
+                        "id": "resourceGroupId",
+                        "name": "Resource group ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "locationId",
+                        "name": "Location ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "resourceId",
+                        "name": "Resource ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "resourceType",
+                        "name": "Resource type",
+                        "visible": false
+                      },
+                      {
+                        "id": "subscriptionId",
+                        "name": "Subscription ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.application",
+                        "name": "Application",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_gen_date",
+                        "name": "base_image_gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_name",
+                        "name": "base_image_name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_offer",
+                        "name": "base_image_offer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_publisher",
+                        "name": "base_image_publisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_sku",
+                        "name": "base_image_sku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_version",
+                        "name": "base_image_version",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagegendate",
+                        "name": "BaseImageGenDate",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagename",
+                        "name": "BaseImageName",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimageoffer",
+                        "name": "BaseImageOffer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagepublisher",
+                        "name": "BaseImagePublisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagesku",
+                        "name": "BaseImageSku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.clusterid",
+                        "name": "ClusterId",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.clustername",
+                        "name": "ClusterName",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.command",
+                        "name": "Command",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.costcentercode",
+                        "name": "CostCenterCode",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.created_by",
+                        "name": "created_by",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.creator",
+                        "name": "Creator",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.databricks-environment",
+                        "name": "databricks-environment",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.databricks-instance-name",
+                        "name": "databricks-instance-name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.databricksenvironment",
+                        "name": "DatabricksEnvironment",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.environment",
+                        "name": "Environment",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.gen_date",
+                        "name": "Gen_Date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.guest_config_version",
+                        "name": "guest_config_version",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_gen_date",
+                        "name": "image_gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_name",
+                        "name": "image_name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_offer",
+                        "name": "image_offer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_publisher",
+                        "name": "image_publisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_sku",
+                        "name": "image_sku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_ver",
+                        "name": "image_ver",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_version",
+                        "name": "image_version",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.loe",
+                        "name": "LOE",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.ms-resource-usage",
+                        "name": "ms-resource-usage",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.os_platform",
+                        "name": "os_platform",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planinfo",
+                        "name": "PlanInfo",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planproduct",
+                        "name": "PlanProduct",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planpromotioncode",
+                        "name": "PlanPromotionCode",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planpublisher",
+                        "name": "PlanPublisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.resourcecategory",
+                        "name": "ResourceCategory",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.resourceclass",
+                        "name": "ResourceClass",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.resourcetype",
+                        "name": "ResourceType",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_gen_date",
+                        "name": "source_gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_name",
+                        "name": "source_name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_offer",
+                        "name": "source_offer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_publisher",
+                        "name": "source_publisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_sku",
+                        "name": "source_sku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.subcommand",
+                        "name": "SubCommand",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.vendor",
+                        "name": "Vendor",
+                        "visible": false
+                      }
+                    ],
+                    "gridColumnWidths": {
+                      "assetType": "100fr",
+                      "resourceGroup": "100fr",
+                      "subscription": "100fr"
+                    },
+                    "currentView": 1,
+                    "visualizationId": "location",
+                    "visualizationType": 4,
+                    "visualizationThreshold": 1
+                  },
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/BrowseAllTile"
+            }
+          },
+          "2": {
+            "position": {
+              "x": 10,
+              "y": 0,
+              "colSpan": 5,
+              "rowSpan": 8
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "tagName",
+                  "isOptional": true
+                },
+                {
+                  "name": "tagValue",
+                  "isOptional": true
+                },
+                {
+                  "name": "filter",
+                  "isOptional": true
+                },
+                {
+                  "name": "view",
+                  "value": {
+                    "id": "4707c98f-088b-4f57-aaa5-3a012ae05127",
+                    "name": "4707c98f-088b-4f57-aaa5-3a012ae05127",
+                    "filterFacets": [
+                      {
+                        "key": "locationDisplayName",
+                        "uniqueId": "4707c98f-088b-4f57-aaa5-3a012ae05004",
+                        "display": "Location",
+                        "operator": 1,
+                        "isAllValues": true,
+                        "facetKind": 1
+                      },
+                      {
+                        "key": "typeDisplayName",
+                        "uniqueId": "4707c98f-088b-4f57-aaa5-3a012ae050d0",
+                        "display": "Type",
+                        "operator": 1,
+                        "value": [
+                          {
+                            "name": "api connection"
+                          },
+                          {
+                            "name": "automation account"
+                          },
+                          {
+                            "name": "azure databricks service"
+                          },
+                          {
+                            "name": "data factory (v2)"
+                          },
+                          {
+                            "name": "dedicated sql pool"
+                          },
+                          {
+                            "name": "key vault"
+                          },
+                          {
+                            "name": "log analytics workspace"
+                          },
+                          {
+                            "name": "sql database"
+                          },
+                          {
+                            "name": "sql server"
+                          },
+                          {
+                            "name": "storage account"
+                          },
+                          {
+                            "name": "synapse workspace"
+                          },
+                          {
+                            "name": "virtual network"
+                          }
+                        ],
+                        "isAllValues": false,
+                        "facetKind": 1
+                      },
+                      {
+                        "key": "resourceGroup",
+                        "uniqueId": "4707c98f-088b-4f57-aaa5-3a012ae0511f",
+                        "display": "Resource group",
+                        "operator": 1,
+                        "value": [
+                          {
+                            "name": "d-va-eitaas-cor-cde"
+                          }
+                        ],
+                        "isAllValues": false,
+                        "facetKind": 1
+                      }
+                    ],
+                    "groupByValue": "",
+                    "sortedColumns": [
+                      {
+                        "sortBy": "typeDisplayName",
+                        "order": 1,
+                        "castFunction": 2
+                      }
+                    ],
+                    "showAll": false,
+                    "gridColumns": [
+                      {
+                        "id": "assetType",
+                        "name": "Type",
+                        "visible": true,
+                        "width": "100fr"
+                      },
+                      {
+                        "id": "resourceGroup",
+                        "name": "Resource group",
+                        "visible": true,
+                        "width": "100fr"
+                      },
+                      {
+                        "id": "location",
+                        "name": "Location",
+                        "visible": false
+                      },
+                      {
+                        "id": "subscription",
+                        "name": "Subscription",
+                        "visible": false
+                      },
+                      {
+                        "id": "tagsArray",
+                        "name": "Tags",
+                        "visible": false
+                      },
+                      {
+                        "id": "kind",
+                        "name": "Kind",
+                        "visible": false
+                      },
+                      {
+                        "id": "resourceGroupId",
+                        "name": "Resource group ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "locationId",
+                        "name": "Location ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "resourceId",
+                        "name": "Resource ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "resourceType",
+                        "name": "Resource type",
+                        "visible": false
+                      },
+                      {
+                        "id": "subscriptionId",
+                        "name": "Subscription ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.application",
+                        "name": "application",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_gen_date",
+                        "name": "base_image_gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_name",
+                        "name": "base_image_name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_offer",
+                        "name": "base_image_offer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_publisher",
+                        "name": "base_image_publisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_sku",
+                        "name": "base_image_sku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_version",
+                        "name": "base_image_version",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagegendate",
+                        "name": "baseimagegendate",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagename",
+                        "name": "baseimagename",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimageoffer",
+                        "name": "baseimageoffer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagepublisher",
+                        "name": "baseimagepublisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagesku",
+                        "name": "baseimagesku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.clusterid",
+                        "name": "clusterid",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.clustername",
+                        "name": "clustername",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.command",
+                        "name": "command",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.costcentercode",
+                        "name": "costcentercode",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.created_by",
+                        "name": "created_by",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.creator",
+                        "name": "creator",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.databricks-environment",
+                        "name": "databricks-environment",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.databricks-instance-name",
+                        "name": "databricks-instance-name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.databricksenvironment",
+                        "name": "databricksenvironment",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.environment",
+                        "name": "environment",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.gen_date",
+                        "name": "gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.guest_config_version",
+                        "name": "guest_config_version",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_gen_date",
+                        "name": "image_gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_name",
+                        "name": "image_name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_offer",
+                        "name": "image_offer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_publisher",
+                        "name": "image_publisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_sku",
+                        "name": "image_sku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_ver",
+                        "name": "image_ver",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_version",
+                        "name": "image_version",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.loe",
+                        "name": "loe",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.ms-resource-usage",
+                        "name": "ms-resource-usage",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.os_platform",
+                        "name": "os_platform",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planinfo",
+                        "name": "planinfo",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planproduct",
+                        "name": "planproduct",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planpromotioncode",
+                        "name": "planpromotioncode",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planpublisher",
+                        "name": "planpublisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.resourcecategory",
+                        "name": "resourcecategory",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.resourceclass",
+                        "name": "resourceclass",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.resourcetype",
+                        "name": "resourcetype",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_gen_date",
+                        "name": "source_gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_name",
+                        "name": "source_name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_offer",
+                        "name": "source_offer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_publisher",
+                        "name": "source_publisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_sku",
+                        "name": "source_sku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.subcommand",
+                        "name": "subcommand",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.vendor",
+                        "name": "vendor",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.dashboard",
+                        "name": "Dashboard",
+                        "visible": false
+                      }
+                    ],
+                    "gridColumnWidths": {
+                      "assetType": "100fr",
+                      "resourceGroup": "100fr"
+                    },
+                    "currentView": 1,
+                    "visualizationId": "location",
+                    "visualizationType": 4,
+                    "visualizationThreshold": 1
+                  },
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/BrowseAllTile"
+            }
+          },
+          "3": {
+            "position": {
+              "x": 15,
+              "y": 0,
+              "colSpan": 5,
+              "rowSpan": 8
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "tagName",
+                  "isOptional": true
+                },
+                {
+                  "name": "tagValue",
+                  "isOptional": true
+                },
+                {
+                  "name": "filter",
+                  "isOptional": true
+                },
+                {
+                  "name": "view",
+                  "value": {
+                    "id": "4707c98f-088b-4f57-aaa5-3a012ae05179",
+                    "name": "4707c98f-088b-4f57-aaa5-3a012ae05179",
+                    "filterFacets": [
+                      {
+                        "key": "locationDisplayName",
+                        "uniqueId": "4707c98f-088b-4f57-aaa5-3a012ae05004",
+                        "display": "Location",
+                        "operator": 1,
+                        "isAllValues": true,
+                        "facetKind": 1
+                      },
+                      {
+                        "key": "typeDisplayName",
+                        "uniqueId": "4707c98f-088b-4f57-aaa5-3a012ae050d0",
+                        "display": "Type",
+                        "operator": 1,
+                        "value": [
+                          {
+                            "name": "api connection"
+                          },
+                          {
+                            "name": "automation account"
+                          },
+                          {
+                            "name": "azure databricks service"
+                          },
+                          {
+                            "name": "data factory (v2)"
+                          },
+                          {
+                            "name": "dedicated sql pool"
+                          },
+                          {
+                            "name": "key vault"
+                          },
+                          {
+                            "name": "log analytics workspace"
+                          },
+                          {
+                            "name": "sql database"
+                          },
+                          {
+                            "name": "sql server"
+                          },
+                          {
+                            "name": "storage account"
+                          },
+                          {
+                            "name": "synapse workspace"
+                          },
+                          {
+                            "name": "virtual network"
+                          }
+                        ],
+                        "isAllValues": false,
+                        "facetKind": 1
+                      },
+                      {
+                        "key": "resourceGroup",
+                        "uniqueId": "4707c98f-088b-4f57-aaa5-3a012ae05164",
+                        "display": "Resource group",
+                        "operator": 1,
+                        "value": [
+                          {
+                            "name": "p-va-eitaas-cor-cde"
+                          }
+                        ],
+                        "isAllValues": false,
+                        "facetKind": 1
+                      }
+                    ],
+                    "groupByValue": "",
+                    "sortedColumns": [
+                      {
+                        "sortBy": "typeDisplayName",
+                        "order": 1
+                      }
+                    ],
+                    "showAll": false,
+                    "gridColumns": [
+                      {
+                        "id": "assetType",
+                        "name": "Type",
+                        "visible": true,
+                        "width": "100fr"
+                      },
+                      {
+                        "id": "resourceGroup",
+                        "name": "Resource group",
+                        "visible": true,
+                        "width": "100fr"
+                      },
+                      {
+                        "id": "location",
+                        "name": "Location",
+                        "visible": false
+                      },
+                      {
+                        "id": "subscription",
+                        "name": "Subscription",
+                        "visible": false
+                      },
+                      {
+                        "id": "tagsArray",
+                        "name": "Tags",
+                        "visible": false
+                      },
+                      {
+                        "id": "kind",
+                        "name": "Kind",
+                        "visible": false
+                      },
+                      {
+                        "id": "resourceGroupId",
+                        "name": "Resource group ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "locationId",
+                        "name": "Location ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "resourceId",
+                        "name": "Resource ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "resourceType",
+                        "name": "Resource type",
+                        "visible": false
+                      },
+                      {
+                        "id": "subscriptionId",
+                        "name": "Subscription ID",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.application",
+                        "name": "application",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_gen_date",
+                        "name": "base_image_gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_name",
+                        "name": "base_image_name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_offer",
+                        "name": "base_image_offer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_publisher",
+                        "name": "base_image_publisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_sku",
+                        "name": "base_image_sku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.base_image_version",
+                        "name": "base_image_version",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagegendate",
+                        "name": "baseimagegendate",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagename",
+                        "name": "baseimagename",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimageoffer",
+                        "name": "baseimageoffer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagepublisher",
+                        "name": "baseimagepublisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.baseimagesku",
+                        "name": "baseimagesku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.clusterid",
+                        "name": "clusterid",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.clustername",
+                        "name": "clustername",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.command",
+                        "name": "command",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.costcentercode",
+                        "name": "costcentercode",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.created_by",
+                        "name": "created_by",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.creator",
+                        "name": "creator",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.databricks-environment",
+                        "name": "databricks-environment",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.databricks-instance-name",
+                        "name": "databricks-instance-name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.databricksenvironment",
+                        "name": "databricksenvironment",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.environment",
+                        "name": "environment",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.gen_date",
+                        "name": "gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.guest_config_version",
+                        "name": "guest_config_version",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_gen_date",
+                        "name": "image_gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_name",
+                        "name": "image_name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_offer",
+                        "name": "image_offer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_publisher",
+                        "name": "image_publisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_sku",
+                        "name": "image_sku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_ver",
+                        "name": "image_ver",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.image_version",
+                        "name": "image_version",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.loe",
+                        "name": "loe",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.ms-resource-usage",
+                        "name": "ms-resource-usage",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.os_platform",
+                        "name": "os_platform",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planinfo",
+                        "name": "planinfo",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planproduct",
+                        "name": "planproduct",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planpromotioncode",
+                        "name": "planpromotioncode",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.planpublisher",
+                        "name": "planpublisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.resourcecategory",
+                        "name": "resourcecategory",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.resourceclass",
+                        "name": "resourceclass",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.resourcetype",
+                        "name": "resourcetype",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_gen_date",
+                        "name": "source_gen_date",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_name",
+                        "name": "source_name",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_offer",
+                        "name": "source_offer",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_publisher",
+                        "name": "source_publisher",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.source_sku",
+                        "name": "source_sku",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.subcommand",
+                        "name": "subcommand",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.vendor",
+                        "name": "vendor",
+                        "visible": false
+                      },
+                      {
+                        "id": "tags.dashboard",
+                        "name": "Dashboard",
+                        "visible": false
+                      }
+                    ],
+                    "gridColumnWidths": {
+                      "assetType": "100fr",
+                      "resourceGroup": "100fr"
+                    },
+                    "currentView": 1,
+                    "visualizationId": "location",
+                    "visualizationType": 4,
+                    "visualizationThreshold": 1
+                  },
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/BrowseAllTile"
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        }
+      }
+    }
+  },
+  "name": "CDE Dashboard",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "CDE Dashboard"
+  },
+  "apiVersion": "2015-08-01-preview"
+}
