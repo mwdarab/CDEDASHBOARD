@@ -1,0 +1,6 @@
+BlobEndpoint=https://saeitaasdatateam.blob.core.usgovcloudapi.net/;QueueEndpoint=https://saeitaasdatateam.queue.core.usgovcloudapi.net/;FileEndpoint=https://saeitaasdatateam.file.core.usgovcloudapi.net/;TableEndpoint=https://saeitaasdatateam.table.core.usgovcloudapi.net/;SharedAccessSignature=sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupitfx&se=2023-04-12T20:18:55Z&st=2023-04-12T18:18:55Z&spr=https&sig=swuIElZG%2Ffbx4rAUJhZoqt%2BEul2tE9fOaoYb7N%2BXJH8%3D
+
+
+?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupitfx&se=2023-04-12T20:18:55Z&st=2023-04-12T18:18:55Z&spr=https&sig=swuIElZG%2Ffbx4rAUJhZoqt%2BEul2tE9fOaoYb7N%2BXJH8%3D
+
+https://saeitaasdatateam.blob.core.usgovcloudapi.net/?sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdlacupitfx&se=2023-04-12T20:18:55Z&st=2023-04-12T18:18:55Z&spr=https&sig=swuIElZG%2Ffbx4rAUJhZoqt%2BEul2tE9fOaoYb7N%2BXJH8%3D
